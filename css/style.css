@@ -59,6 +59,9 @@
     width: 250px;
     padding:10px;
     }
+       .haluhala{
+    display:none;
+    }
 
  } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
@@ -144,9 +147,6 @@
         margin:auto;
         padding-top:0px;
         padding-bottom:0px;
-    }
-    .haluhala{
-    display:none;
     }
 
 
