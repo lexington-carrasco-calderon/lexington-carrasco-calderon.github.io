@@ -192,7 +192,7 @@
     right: 35px;
   }
 }
-@media screen and (min-device-width: 390px) {
+@media screen and (max-device-width: 390px) {
     .haluhala{
     display:none;
     }
