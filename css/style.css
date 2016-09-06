@@ -229,7 +229,6 @@
     margin: 0;
     padding:0;
     border:0;
-
 }
 #overheader {
     background-color: #5C15CC;
@@ -456,10 +455,23 @@ svg:hover #Layer_1{
   }
 }
 @media screen and (min-device-width: 390px) {
-       .haluhala{
+    .haluhala{
     display:none;
     }
+    #header {
+    background-color: rgba(92, 21, 204, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 240px;
+    padding: 0;
+    margin: 0;
     }
+    #header #header-content {
+    display:none;
+    }
+}
 
 .modal {
     display: none; /* Hidden by default */
