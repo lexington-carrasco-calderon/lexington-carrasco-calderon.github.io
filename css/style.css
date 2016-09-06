@@ -182,7 +182,36 @@
 // XLarge screens
 @media only screen and (min-width: 90.063em) {
 
-    } /* min-width 1441px, xlarge screens */
+    }
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+@media screen and (min-device-width: 390px) {
+    .haluhala{
+    display:none;
+    }
+    #header {
+    background-color: rgba(92, 21, 204, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 240px;
+    padding: 0;
+    margin: 0;
+    }
+    #header #header-content {
+    display:none;
+    }
+}
+
+    /* min-width 1441px, xlarge screens */
     h1 {
         font-family:Miriam Libre;
         font-weight:400;
@@ -444,33 +473,6 @@ svg:hover #Layer_1{
     top: 20px;
     right: 10px;
     font-size: 60px;
-}
-
-@media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
-}
-@media screen and (min-device-width: 390px) {
-    .haluhala{
-    display:none;
-    }
-    #header {
-    background-color: rgba(92, 21, 204, 0.9);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 240px;
-    padding: 0;
-    margin: 0;
-    }
-    #header #header-content {
-    display:none;
-    }
 }
 
 .modal {
