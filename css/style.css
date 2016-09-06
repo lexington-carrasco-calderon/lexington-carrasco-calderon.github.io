@@ -122,6 +122,15 @@ div {
 and (min-device-width : 375px)
 and (max-device-width : 667px)
 and (orientation : portrait) {
+    h1 {
+    font-family:Miriam Libre;
+    font-weight:400;
+    font-size: 10em;
+    letter-spacing: .25em;
+    line-height: 1.4em;
+    color:black;
+    text-align: center;
+}
     #c1, #c2, #c3 {
     text-align: center;
     display:none;
@@ -184,6 +193,8 @@ and (orientation : portrait) {
     padding-bottom:0px;
 }
 }
+
+
 img {
     max-width: 100%;
     height: auto;
