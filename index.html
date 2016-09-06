@@ -1,7 +1,480 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+    <Head>
+
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,900" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Yatra+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Eczar:400,500,700|Miriam+Libre:400,700" rel="stylesheet">
+            <link rel="stylesheet" href="css/bootstrap.min.css">
+            <link rel="stylesheet" href="css/style.css">
+            <link rel="stylesheet" href="js/bootstrap.min.js">
+            <link rel="stylesheet" href="js/jquery-1.12.4.min.js">
+            <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+            <!-- Begin MailChimp Signup Form -->
+        <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+        <style type="text/css">
+            #mc_embed_signup{bottom: 0;height:250px; background:#AD9840; clear:left; font-family:Lato;font-weight:400;font-size: 14px; width:100%;}
+            /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+               We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+        </style>
+    </Head>
+
+    <Body>
+        <div id="header">
+            <div class="haluhala" style="padding-top:0px;padding-left:calc(50vw - 125px);text-align:left;float:left;width:80%;height:100%;">
+                <a href="mock.html"><img class="navimg" src="assets/header2_svg.svg"></a>
+            </div>
+
+            <div class="haluhala" style="padding-top:37px;padding-right:10px;text-align:right;float:right;width:20%;height:100%;">
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            </div>
+            <div id="header-content">
+                <div id="c9"></div><div id="d1"><div id="c1"><h3><li><a href="about.html">ABOUT</a></li></h3></div><div id="c2"><h3><li><a href="membership.html">MEMBERSHIP</a></li></h3></div><div id="c3"><h3><li><a href="team.html">TEAM</a></li></h3></div></div><div id="c4"><a href="mock.html"><img class="navimg" src="assets/header2_svg.svg"></a></div><div id="d3"><div id="c1"><h3><li><a href="schedule.html">SCHEDULE</a></li></h3></div><div id="c2"><h3><li><a href="news.html">NEWS</a></li></h3></div><div id="c3"><h3><li><a href="contact.html">CONTACT</a></li></h3></div></div><div id="c9"></div>
+            </div>
+        </div>
+        <div class="viewport1">
+            <div style="height:120px;background-color: #AD9840;">
+            </div>
+            <div style="background-position: center;background-attachment: fixed;background-size:80%;background-repeat:no-repeat;background-image: url(assets/back_logo1.svg);" class="fill">
+                <h1 style="padding:10px;">OUR HEART<BR>IS A FEARSOME<br>STORM</h1>
+            </div>
+        </div>
+        <div style="margin-top:80px;width:100%;">
+            <div class="center">
+                <h4>Welcome to ELKHART REPUBLIC:</h4>
+                <p><h2>
+                A men's semi-professional soccer club representing Elkhart Indiana, and testament to the excellence of our city.
+                </h2></p>
+                <p><h2>
+                We'll be competing in the <a href="http://www.pla-soccer.com/">Premier League of America</a> (tier-4 of the U.S. Soccer Pyramid), beginning in 2017.
+                </h2></p>
+                <p><h2>
+                Our home field is at American Park in downtown Elkhart - strategically positioned within stumbling distance of Iechyd Da Brewing, purveyor of Elkhart Republic Midday Stout, a beer that allows you to drink your way into eternal membership of E.R.S.C.  Find out how to become a stakeholder-member here.
+                </h2></p>
+                <p><h2>
+                Our first off-season will be a busy one: (friendly matches, tryouts, meet-ups).  Keep in touch by joining our email list below or by following us on Facebook, Instagram, and Twitter.  Check out the Elkhart Republic online shop for pre-season gear.  Official kits and season tickets are in the pipeline.
+                </h2></p>
+            </div>
+        </div>
+        <div style="float:left;text-align:center;margin:auto;margin-top:30px;width:100vw;padding-bottom:50px;">
+            <div style="float:left;width:14vw;"><h2 style="color:white;">/</h2>
+            </div>
+
+            <div style="width:14vw;height:100%;text-align:center;margin:auto;float:left;">
+                <div style="width:100%;height:90%;text-align:center;margin:auto;display:inline-block">
+                    <img src="assets/leftarrow.svg">
+                </div>
+                <div style="color:#5C15CC;margin-top:50%;width:100%;height:10%;text-align:center;margin:auto;display:inline-block;text-decoration-color: red;text-decoration: underline;">
+                    <h6 id="myBtn" class="mybtn" style="margin:0px;color:#5C15CC;">CLUB MISSION</h6>
+                </div>
+            </div>
+
+            <div style="float:left;width:4vw;color:white;"><h2 style="color:white;">/</h2></div>
+            <div style="width:36vw;height:100%;text-align:center;margin:auto;float:left;">
+                <div style="width:100%;height:80%;text-align:center;margin:auto;display:inline-block;">
+                    <img src="assets/centrallogo.svg">
+                </div>
+                <div style="width:100%;height:20%;text-align:center;margin:auto;display:inline-block;">
+                    <h6 style="margin:0px;text-decoration: underline;"><a href="crest.html">OUR CREST : LEARN MORE></a></h6>
+                </div>
+            </div>
+
+            <div style="float:left;width:4vw;color:white;"><h2 style="color:white;">/</h2>
+            </div>
+            <div style="width:14vw;height:100%;text-align:center;margin:auto;float:left;">
+                <div style="width:100%;padding-top:10px;height:20%;text-align:center;margin:auto;display:inline-block;text-decoration: underline;">
+                    <h6 style="margin:0px"><a href="membership.html">MEMBERSHIP</a></h6>
+                </div>
+                <div style="width:100%;height:80%;text-align:center;margin:auto;display:inline-block;">
+                    <img src="assets/rightarrow.svg">
+                </div>
+            </div>
+
+            <div style="float:left;width:14vw;"></div>
+        </div>
+        <script>
+        // Get the modal
+        var modal = document.getElementById('myModal');
+
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks the button, open the modal
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+        </script>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+          <!-- Modal content -->
+            <div style="max-height:100vh;max-width:100vw;" class="modal-content">
+                <span class="close">X</span>
+                <div style="max-height:100vh;max-width:100vw; class="modal-body">
+                    <p style="padding-top:15vh;padding-bottom:5vh;padding-left:5vw;padding-right:5vw;font-family:Miriam Libre;font-weight:400;font-size: 6vw;letter-spacing: .2em;line-height: 1em;color:white;text-align: center;text-transform: uppercase;">Our mission is to bring professional soccer to Elkhart, Indiana, and to use this team as a way to grow the game in the Michiana region.</p>
+                </div>
+            </div>
+            <script>
+            // Get the modal
+            var modal = document.getElementById('myModal');
+
+            // Get the button that opens the modal
+            var btn = document.getElementById("myBtn");
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks on the button, open the modal
+            btn.onclick = function() {
+                modal.style.display = "block";
+            }
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+                modal.style.display = "none";
+            }
+
+            // When the user clicks anywhere outside of the modal, close it
+            modal.onclick = function(event) {
+                if (event.target = modal) {
+                    modal.style.display = "none";
+                }
+            }
+            </script>
+        </div>
+
+        <div style="text-align:center;">
+        <p>lorem ipsum</p>
+        </div>
+        <div style="text-align:center;">
+        <p>lorem ipsum</p>
+        </div>
+        <div style="text-align:center;">
+        <p>lorem ipsum</p>
+        </div>
+        <div style="text-align:center;">
+        <p>lorem ipsum</p>
+        </div>
+        <div style="text-align:center;">
+        <p>lorem ipsum</p>
+        </div>
+        <div style="text-align:center;">
+        <p>lorem ipsum</p>
+        </div>
+        <div style="text-align:center;">
+        <p>lorem ipsum</p>
+        </div>
+        <div style="text-align:center;">
+        <p>lorem ipsum</p>
+        </div>
+        <div style="text-align:center;">
+        <p>lorem ipsum</p>
+        </div>
+        <div style="text-align:center;">
+        <p>lorem ipsum</p>
+        </div>
+        <div style="text-align:center;">
+        <p>lorem ipsum</p>
+        </div>
+        <div style="text-align:center;">
+        <p>lorem ipsum</p>
+        </div>
+        <div style="text-align:center;">
+        <p>lorem ipsum</p>
+        </div>
+        <div style="text-align:center;">
+        <p>lorem ipsum</p>
+        </div>
+        <div style="text-align:center;">
+        <p>lorem ipsum</p>
+        </div>
+        <div style="text-align:center;">
+        <p>lorem ipsum</p>
+        </div>
+        <div style="text-align:center;">
+        <p>lorem ipsum</p>
+        </div>
+        <div style="text-align:center;">
+        <p>lorem ipsum</p>
+        </div>
+        <div style="text-align:center;">
+        <p>lorem ipsum</p>
+        </div>
+        <div style="text-align:center;">
+        <p>lorem ipsum</p>
+        </div>
+        <div style="text-align:center;">
+        <p>lorem ipsum</p>
+        </div>
+        <div style="text-align:center;">
+        <p>lorem ipsum</p>
+        </div>
+        <div style="text-align:center;">
+        <p>lorem ipsum</p>
+        </div>
+        <div style="text-align:center;">
+        <p>lorem ipsum</p>
+        </div>
+        <div style="text-align:center;">
+        <p>lorem ipsum</p>
+        </div>
+
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+            <object>
+                <svg class="st0" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     width="60px" height="60px" viewBox="0 0 60 60" enable-background="new 0 0 60 60" xml:space="preserve">
+                    <defs>
+                        <filter id="f2" x="0" y="0">
+                          <feGaussianBlur in="SourceGraphic" stdDeviation="2" />
+                        </filter>
+                        <style type="text/css">
+                            .st0{
+                            transform:scale(.7);
+                            }
+                            svg { cursor: pointer;
+                            }
+                            .st0:hover {
+                            filter:url(#f2);
+                            }
+                        </style>
+                    </defs>
+                <g>
+                    <path fill="#AD9840" d="M279.972,30.823c-0.019,0.053-0.038,0.104-0.038,0.146c0,0.027,0.008,0.055,0.029,0.078
+                        c0.18,0.186,0.521,0.297,1.104,0.406c0.014,0,0.025,0,0.039,0c0.08,0,0.136-0.021,0.181-0.131c0.466-1.57,1.602-2.756,3.483-3.143
+                        c-0.661-0.277-1.1-0.367-1.771-0.4C281.498,28.415,280.334,29.53,279.972,30.823z"/>
+                    <path fill="#AD9840" d="M279.084,30.634c-0.027,0.08-0.064,0.15-0.078,0.23c0.006,0.15,0.02,0.215,0.032,0.334
+                        c0.044,0.072,0.096,0.094,0.188,0.096c0.012,0,0.024-0.002,0.037-0.002c0.212-0.045,0.229-0.088,0.405-0.199
+                        c0.089-0.064,0.146-0.172,0.159-0.295c0.404-1.373,1.526-2.449,2.844-3.006C281.08,27.95,279.686,28.962,279.084,30.634z"/>
+                    <path fill="#AD9840" d="M282.246,33.765c0.363,0,0.736-0.045,1.112-0.131c0.102-0.033,0.093-0.076,0.165-0.148
+                        c0.175-0.244,0.245-0.406,0.322-0.613c0.01-0.037,0.016-0.066,0.015-0.092c0-0.049-0.019-0.086-0.077-0.154
+                        c-0.246-0.219-0.413-0.336-0.716-0.477c-0.069-0.02-0.103-0.035-0.142-0.035l0,0c-0.028,0-0.059,0.006-0.105,0.027
+                        c-0.221,0.123-0.474,0.268-0.754,0.352c-0.043,0.014-0.08,0.018-0.113,0.018c-0.102,0-0.168-0.053-0.23-0.111
+                        c-0.203-0.201-0.307-0.424-0.442-0.662c-0.048-0.08-0.126-0.133-0.235-0.133c-0.021,0-0.044,0.002-0.07,0.008
+                        c-0.344-0.053-0.637-0.15-1.035-0.34c-0.034-0.035-0.066-0.049-0.1-0.049h-0.002c-0.043,0-0.09,0.025-0.142,0.062
+                        c-0.155,0.078-0.26,0.168-0.462,0.201c-0.014,0.006-0.029,0.01-0.05,0.01c-0.071,0-0.177-0.043-0.218-0.143
+                        c-0.053-0.131-0.037-0.137-0.062-0.189c-0.031,0.154-0.064,0.521-0.064,0.781c0,0.053,0.001,0.102,0.003,0.139
+                        C279.826,33.233,280.99,33.765,282.246,33.765z"/>
+                    <g>
+                        <path fill="#AD9840" d="M283.361,33.778c-0.016,0-0.033,0.002-0.051,0.004c-0.371,0.09-0.742,0.135-1.109,0.135
+                            c-1.208,0-2.375-0.494-3.348-1.596c0.084,0.709,0.227,1.139,0.533,1.734c1.013,0.773,2.178,1.221,3.26,1.221l0,0
+                            c0.302,0,0.598-0.035,0.881-0.109c0.1-0.018,0.18-0.025,0.202-0.104c0.018-0.062,0.026-0.131,0.026-0.209
+                            c0-0.229-0.075-0.533-0.221-0.945C283.49,33.825,283.454,33.78,283.361,33.778z"/>
+                        <polygon fill="#AD9840" points="279.382,34.062 279.382,34.062 279.382,34.062        "/>
+                    </g>
+                    <path fill="#AD9840" d="M283.922,35.298c-0.046-0.021-0.097-0.033-0.148-0.033c-0.064,0-0.129,0.016-0.19,0.041
+                        c-0.317,0.076-0.638,0.111-0.96,0.111c-1.094,0-2.187-0.414-3.064-1.082c0.782,1.098,2.023,1.773,3.441,1.773
+                        c0.264,0,0.533-0.023,0.807-0.072c0.086-0.018,0.162-0.018,0.244-0.051c0.123-0.084,0.174-0.123,0.27-0.191
+                        c0.02-0.033,0.029-0.062,0.029-0.09c0-0.047-0.022-0.096-0.061-0.154C284.146,35.388,284.098,35.397,283.922,35.298z"/>
+                    <path fill="#AD9840" d="M285.496,33.796c0-1.125-0.438-2.125-1.226-2.971c-0.083-0.068-0.112-0.043-0.212-0.068
+                        c-0.097-0.01-0.182-0.014-0.258-0.014c-0.162,0-0.29,0.016-0.438,0.037c-0.109,0.033-0.137,0.055-0.176,0.184
+                        c-0.049,0.221-0.074,0.387-0.074,0.574c0,0.086,0.005,0.176,0.015,0.277c0.026,0.125,0.019,0.145,0.113,0.225
+                        c0.221,0.123,0.474,0.27,0.683,0.473c0.084,0.078,0.109,0.154,0.109,0.225c0,0.041-0.008,0.08-0.017,0.121
+                        c-0.078,0.279-0.216,0.48-0.351,0.713c-0.025,0.043-0.039,0.09-0.039,0.139c0,0.061,0.023,0.127,0.078,0.193
+                        c0.123,0.324,0.188,0.623,0.227,1.066c-0.005,0.02-0.008,0.037-0.008,0.051c0,0.072,0.055,0.109,0.141,0.148
+                        c0.148,0.096,0.279,0.137,0.409,0.305c0.031,0.023,0.06,0.092,0.06,0.164c0,0.043-0.011,0.09-0.038,0.133
+                        c-0.089,0.113-0.103,0.102-0.138,0.15c0.177-0.062,0.623-0.277,0.824-0.41C285.395,34.911,285.496,34.341,285.496,33.796z"/>
+                    <g>
+                        <path fill="#AD9840" d="M286.621,34.052c0.036-0.289,0.055-0.574,0.055-0.855c0-1.299-0.391-2.494-1.162-3.285
+                            c-0.058-0.062-0.104-0.125-0.166-0.125h-0.002c-0.008,0-0.018,0.002-0.025,0.004c-0.25,0.059-0.521,0.303-0.903,0.748
+                            c-0.032,0.047-0.053,0.086-0.053,0.131c0,0.037,0.015,0.078,0.052,0.127c0.783,0.828,1.242,1.846,1.242,3.004
+                            c0,0.504-0.088,1.035-0.273,1.588C285.955,34.956,286.256,34.622,286.621,34.052z"/>
+                        <polygon fill="#AD9840" points="286.627,34.054 286.627,34.054 286.627,34.054        "/>
+                    </g>
+                    <path fill="#AD9840" d="M286.771,33.767c0.257-0.561,0.389-1.162,0.389-1.764c0-0.963-0.336-1.93-1.037-2.766
+                        c-0.059-0.066-0.098-0.131-0.16-0.188c-0.135-0.07-0.199-0.09-0.309-0.135c-0.004,0-0.01,0-0.015,0
+                        c-0.084,0-0.13,0.047-0.179,0.145c-0.033,0.107-0.043,0.17-0.043,0.232c0,0.059,0.008,0.117,0.012,0.219
+                        c0.006,0.107,0.076,0.215,0.173,0.287c0.823,0.867,1.216,2.059,1.216,3.254C286.818,33.29,286.803,33.53,286.771,33.767z"/>
+                    <path fill="#AD9840" d="M285.531,28.757c0.006,0,0.015,0,0.021,0c0.14,0.023,0.14,0.037,0.191,0.045
+                        c-0.141-0.125-0.549-0.404-0.762-0.508c-1.922,0.354-3.1,1.492-3.592,3.143c-0.005,0.023-0.008,0.041-0.008,0.057
+                        c0,0.059,0.032,0.082,0.054,0.16c0.124,0.273,0.232,0.414,0.367,0.588c0.06,0.053,0.093,0.078,0.15,0.078
+                        c0.026,0,0.057-0.006,0.095-0.016c0.318-0.104,0.498-0.188,0.77-0.381c0.092-0.086,0.12-0.088,0.133-0.209
+                        c0-0.252,0-0.545,0.072-0.83c0.032-0.172,0.141-0.215,0.251-0.252c0.177-0.047,0.343-0.055,0.512-0.055
+                        c0.093,0,0.185,0.002,0.281,0.002c0.114-0.006,0.208-0.057,0.26-0.205c0.222-0.268,0.449-0.475,0.814-0.729
+                        c0.085-0.02,0.108-0.078,0.108-0.154c0-0.018-0.001-0.037-0.004-0.059c0.001-0.025,0.001-0.049,0.001-0.074
+                        c0-0.031,0-0.062,0-0.096c0-0.105,0.006-0.207,0.058-0.336C285.312,28.866,285.406,28.757,285.531,28.757z"/>
+                </g>
+                <path fill="#5C15CC" d="M283,26.806c-0.716,0-1.396,0.149-2.017,0.415l-2.704,2.704c-0.267,0.621-0.416,1.303-0.416,2.02
+                    c0,2.745,2.166,4.974,4.876,5.112l5.372-5.372C287.973,28.975,285.744,26.806,283,26.806z"/>
+                <g>
+                    <path fill="#5C15CC" d="M276.361,31.944c0-0.036,0.005-0.071,0.006-0.107l-2.816,2.816c0.794,2.776,2.774,5.046,5.361,6.231
+                        l2.501-2.502C278.518,37.669,276.361,35.057,276.361,31.944z"/>
+                    <path fill="#5C15CC" d="M285.709,22.495l-2.815,2.816c0.035,0,0.07-0.005,0.106-0.005c3.112,0,5.725,2.157,6.438,5.052l2.5-2.5
+                        C290.754,25.27,288.485,23.29,285.709,22.495z"/>
+                </g>
+                <g>
+
+                        <rect x="-1.216" y="25.887" transform="matrix(0.7071 0.7071 -0.7071 0.7071 30.0005 -12.4264)" fill="#AD9840" width="62.431" height="8.226"/>
+
+                        <rect x="25.886" y="25.887" transform="matrix(0.7071 0.7071 -0.7071 0.7071 30.0001 -12.4268)" opacity="0.5" fill="#5C15CC" width="8.228" height="8.226"/>
+                    <g>
+
+                            <rect x="28.939" y="13.397" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 84.9179 -0.1535)" fill="#5C15CC" width="27.103" height="8.226"/>
+
+                            <rect x="3.958" y="38.377" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -24.9162 24.8253)" fill="#5C15CC" width="27.103" height="8.226"/>
+                    </g>
+                </g>
+                </svg>
+            </object>
+            </a>
+            <div class="overlay-content">
+                <a href="about.html">ABOUT</a>
+                <a href="membership.html">MEMBERSHIP</a>
+                <a href="team.html">TEAM</a>
+                <a href="schedule.html">SCHEDULE</a>
+                <a href="news.html">NEWS</a>
+                <a href="contact.html">CONTACT</a>
+            </div>
+        </div>
+
+        <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("p").slideToggle();
+            });
+        });
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+        </script>
+        <!--Start mc_embed_signup-->
+        <div id="mc_embed_signup">
+            <form action="//twitter.us14.list-manage.com/subscribe/post?u=159fd94dca69077e427af88fb&amp;id=e1ec845b51" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div style="margin;0;text-align:center; padding-top:79px;padding-bottom:0px;padding-left:4vw;padding-right:4vw;" id="mc_embed_signup_scroll">
+                <div style="width:100%;">
+                <label style="text-align:center;font-size:16px;" for="mce-EMAIL">Sign up to receive news &amp; updates via email:</label>
+                </div>
+                <div style="margin-top:10px;">
+                <input style="margin-top:5px;color:#AD9840;" type="email" value="" name="EMAIL" class="memail" id="mce-EMAIL" placeholder="email address" required>
+                <input style="margin-top:5px;" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="mutton">
+                </div>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_159fd94dca69077e427af88fb_e1ec845b51" tabindex="-1" value=""></div>
+                </div>
+            </form>
+        </div>
+        <div style="padding:0px;margin:0px;width:100vw;background-color:#AD9840">
+            <div style="background-color:#AD9840;display:inline-block;width:30vw;">
+                <h2 style="padding-left:15px;padding-top:15px;">Elkhart Republic Soccer Club \ 2016</h2>
+            </div>
+            <div style="text-align:center;display:inline-block;width:40vw;background-color:#AD9840">
+                <div style="text-align:center;padding:0;display:inline-block;width:5vw;transform:scale(1);min-width:50px;">
+                    <a href="https://twitter.com/elkhartrepublic" class="twitter-follow-button" data-show-count="false">
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     width="50px" height="50px" viewBox="0 0 80 80" enable-background="new 0 0 80 80" xml:space="preserve">
+     <defs>
+                        <style type="text/css">
+                            #Layer_1 { transform:scale(.9); }
+                            svg:hover { opacity: .7; }
+                        </style>
+                    </defs>
+<path fill="#0A0A0A" d="M40,4.667C20.487,4.667,4.666,20.487,4.666,40c0,19.518,15.821,35.334,35.334,35.334
+    c19.512,0,35.334-15.816,35.334-35.334C75.334,20.487,59.512,4.667,40,4.667z M54.052,32.797c0.017,0.31,0.022,0.619,0.022,0.933
+    c0,9.581-7.295,20.631-20.625,20.631c-4.098,0-7.908-1.199-11.116-3.256c0.57,0.063,1.145,0.098,1.731,0.098
+    c3.397,0,6.519-1.156,8.999-3.1c-3.17-0.064-5.846-2.16-6.769-5.037c0.44,0.08,0.896,0.129,1.362,0.129
+    c0.663,0,1.303-0.09,1.911-0.254c-3.316-0.668-5.813-3.599-5.813-7.111c0-0.026,0-0.059,0-0.086
+    c0.977,0.542,2.095,0.868,3.284,0.906c-1.948-1.303-3.224-3.522-3.224-6.036c0-1.329,0.358-2.578,0.977-3.646
+    c3.577,4.391,8.918,7.272,14.942,7.577c-0.12-0.532-0.185-1.086-0.185-1.656c0-4,3.246-7.245,7.251-7.245
+    c2.078,0,3.967,0.885,5.286,2.29c1.649-0.326,3.202-0.928,4.608-1.764c-0.549,1.699-1.693,3.115-3.191,4.011
+    c1.465-0.169,2.865-0.564,4.162-1.135C56.695,30.497,55.469,31.777,54.052,32.797z"/>
+</svg>
+
+                    </a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+                <div style="text-align:center;padding:0;display:inline-block;width:5vw;transform:scale(1);min-width:50px;">
+                    <a href="https://www.facebook.com/elkhartrepublicsc/">
+
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     width="50px" height="50px" viewBox="0 0 80 80" enable-background="new 0 0 80 80" xml:space="preserve">
+                    <defs>
+                        <style type="text/css">
+                            #Layer_1 { transform:scale(.9); }
+                            svg:hover { opacity: .7; }
+                        </style>
+                    </defs>
+
+<path fill="#0A0A0A" d="M40,4.666C20.482,4.666,4.667,20.487,4.667,40c0,19.519,15.816,35.334,35.334,35.334
+    c19.512,0,35.333-15.817,35.333-35.334C75.334,20.487,59.513,4.666,40,4.666z M47.566,40.017h-4.949c0,7.908,0,17.649,0,17.649
+    h-7.339c0,0,0-9.646,0-17.649h-3.49v-6.242h3.49v-4.032c0-2.894,1.373-7.409,7.403-7.409l5.438,0.022v6.057c0,0-3.306,0-3.945,0
+    c-0.646,0-1.559,0.32-1.559,1.698v3.664h5.596L47.566,40.017z"/>
+</svg>
+
+
+                    </a>
+                </div>
+                <div style="margin:0;padding:0;text-align:center;padding:0;display:inline-block;width:5vw;min-width:50px;transform:scale(1);">
+                    <a href="https://youtube.com/elkhartrepublic">
+
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     width="50px" height="50px" viewBox="0 0 80 80" enable-background="new 0 0 80 80" xml:space="preserve">
+     <defs>
+                        <style type="text/css">
+                            #Layer_1 { transform:scale(.9); }
+                            svg:hover { opacity: .7; }
+                        </style>
+                    </defs>
+<g>
+    <path fill="#0A0A0A" d="M39.685,34.614c0.276,0,0.488-0.068,0.651-0.221c0.163-0.154,0.244-0.365,0.244-0.625v-5.367
+        c0-0.213-0.081-0.385-0.25-0.521c-0.162-0.135-0.374-0.195-0.646-0.195c-0.244,0-0.445,0.062-0.598,0.195
+        c-0.152,0.137-0.229,0.311-0.229,0.521v5.367c0,0.271,0.07,0.479,0.211,0.625C39.218,34.55,39.419,34.614,39.685,34.614z"/>
+    <path fill="#0A0A0A" d="M44.131,44.531c-0.277,0-0.555,0.064-0.824,0.205c-0.271,0.146-0.527,0.359-0.768,0.625v-3.9h-1.807v12.125
+        h1.807v-0.689c0.229,0.275,0.49,0.477,0.768,0.602c0.27,0.137,0.58,0.195,0.932,0.195c0.527,0,0.936-0.162,1.211-0.504
+        c0.283-0.342,0.424-0.826,0.424-1.455v-4.961c0-0.732-0.145-1.291-0.443-1.678C45.129,44.723,44.693,44.531,44.131,44.531z
+         M44.031,51.484c0,0.291-0.053,0.492-0.156,0.617c-0.104,0.131-0.26,0.195-0.482,0.195c-0.152,0-0.293-0.037-0.43-0.104
+        c-0.141-0.059-0.281-0.168-0.424-0.314v-5.568c0.121-0.125,0.24-0.217,0.365-0.275c0.129-0.055,0.254-0.086,0.379-0.086
+        c0.244,0,0.43,0.074,0.561,0.23c0.125,0.158,0.188,0.387,0.188,0.689V51.484L44.031,51.484z"/>
+    <polygon fill="#0A0A0A" points="27.316,43.223 29.4,43.223 29.4,53.586 31.414,53.586 31.414,43.223 33.498,43.223 33.498,41.461
+        27.316,41.461   "/>
+    <path fill="#0A0A0A" d="M37.601,51.43c-0.168,0.195-0.354,0.355-0.555,0.484c-0.199,0.125-0.367,0.184-0.498,0.184
+        c-0.169,0-0.294-0.043-0.369-0.141c-0.07-0.098-0.107-0.244-0.107-0.457v-6.865h-1.786v7.479c0,0.537,0.103,0.928,0.31,1.199
+        c0.213,0.271,0.521,0.396,0.938,0.396c0.331,0,0.679-0.088,1.036-0.281c0.359-0.191,0.701-0.469,1.031-0.832v0.988h1.785v-8.949
+        h-1.785V51.43L37.601,51.43z"/>
+    <path fill="#0A0A0A" d="M40,4.667C20.488,4.667,4.667,20.487,4.667,40c0,19.518,15.821,35.334,35.333,35.334
+        c19.514,0,35.334-15.816,35.334-35.334C75.334,20.487,59.514,4.667,40,4.667z M44.262,26.225h2.008v7.549
+        c0,0.233,0.049,0.402,0.131,0.506c0.08,0.107,0.223,0.162,0.412,0.162c0.146,0,0.336-0.069,0.559-0.207
+        c0.229-0.146,0.436-0.313,0.619-0.53v-7.479h2.02v9.852h-2.02v-1.092c-0.369,0.4-0.754,0.711-1.156,0.916
+        c-0.4,0.207-0.787,0.32-1.166,0.32c-0.469,0-0.814-0.152-1.055-0.449c-0.232-0.289-0.352-0.729-0.352-1.314V26.225z M36.787,28.477
+        c0-0.766,0.271-1.373,0.812-1.822c0.537-0.451,1.271-0.674,2.188-0.674c0.83,0,1.507,0.232,2.044,0.711
+        c0.527,0.473,0.793,1.097,0.793,1.84v5.092c0,0.847-0.254,1.497-0.775,1.98c-0.525,0.482-1.242,0.723-2.159,0.723
+        c-0.881,0-1.586-0.25-2.112-0.744c-0.526-0.499-0.792-1.161-0.792-1.997V28.477z M31.304,22.723l1.473,5.336h0.141l1.406-5.336
+        h2.302l-2.64,7.816v5.536h-2.262v-5.292l-2.699-8.061H31.304L31.304,22.723z M57.666,50.828c0,3.561-2.893,6.453-6.453,6.453
+        H28.787c-3.566,0-6.454-2.895-6.454-6.453v-5.189c0-3.566,2.888-6.458,6.454-6.458h22.426c3.562,0,6.453,2.892,6.453,6.458V50.828z
+        "/>
+    <path fill="#0A0A0A" d="M49.525,44.418c-0.799,0-1.449,0.238-1.955,0.727c-0.51,0.49-0.76,1.129-0.76,1.9v4.016
+        c0,0.863,0.232,1.537,0.689,2.025c0.455,0.5,1.09,0.738,1.889,0.738c0.891,0,1.562-0.23,2.008-0.689
+        c0.451-0.467,0.674-1.156,0.674-2.074V50.6h-1.84v0.408c0,0.525-0.061,0.867-0.174,1.02c-0.119,0.156-0.326,0.232-0.623,0.232
+        c-0.289,0-0.49-0.086-0.607-0.271c-0.115-0.186-0.174-0.51-0.174-0.98v-1.686h3.418v-2.277c0-0.854-0.217-1.498-0.656-1.949
+        C50.975,44.641,50.346,44.418,49.525,44.418z M50.23,47.936h-1.578v-0.906c0-0.375,0.059-0.646,0.184-0.799
+        c0.125-0.168,0.33-0.25,0.613-0.25c0.271,0,0.473,0.082,0.598,0.25c0.119,0.152,0.186,0.424,0.186,0.799v0.906H50.23z"/>
+</g>
+</svg>
+
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <!--End mc_embed_signup-->
+    </Body>
 </html>
