@@ -428,32 +428,6 @@ svg:hover #Layer_1{
     animation-duration: 0.1s;
 }
 
-@media only screen
-and (min-device-width : 375px)
-and (max-device-width : 667px)
-and (orientation : portrait) {}
-.fill {
-    height: -webkit-calc(100vh);
-    height: -moz-calc(100vh);
-    height: calc(100vh);
-    height: -o-calc(100vh);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden
-    background-position: center;
-    background-attachment: fixed;
-    background-size:80%;
-    background-repeat:no-repeat;
-    background-image: url(assets/back_logo1.svg);
-}
-.fill img {
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%
-}
-}
-
 /* Add Animation */
 @-webkit-keyframes animatetop {
     from {top: -300px; opacity: 0}
