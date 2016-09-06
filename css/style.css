@@ -54,7 +54,7 @@
     padding-top:18px;
     padding-bottom:18px;
     }
-      .navimg {
+      .navimgmob {
     margin: auto;
     width: 250px;
     padding:10px;
@@ -208,9 +208,6 @@
   }
 }
 @media screen and (max-device-width: 390px) {
-    .haluhala{
-    display:none;
-    }
     #header {
     background-color: rgba(92, 21, 204, 0.9);
     position: fixed;
