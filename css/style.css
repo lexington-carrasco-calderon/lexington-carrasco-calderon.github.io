@@ -171,9 +171,6 @@
     h3{
         font-family:Lato;font-weight:400;font-size: 1.05vw;letter-spacing: 2px;color:white;
     }
-    .haluhala{
-    display:none;
-    }
 
  } /* min-width 1025px, large screens */
 
@@ -457,6 +454,11 @@ svg:hover #Layer_1{
     right: 35px;
   }
 }
+@media screen and (min-width: 640px) {
+       .haluhala{
+    display:none;
+    }
+    }
 
 .modal {
     display: none; /* Hidden by default */
