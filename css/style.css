@@ -133,7 +133,7 @@ and (orientation : portrait) {}
     overflow: hidden
     background-position: center;
     background-attachment: fixed;
-    background-size:80%;
+    background-size:200%;
     background-repeat:no-repeat;
     background-image: url(assets/back_logo1.svg);
 }
