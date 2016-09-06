@@ -65,6 +65,9 @@
           .navimg {
     display:none;
     }
+            .haluhala{
+    display:inline-block;
+    }
 
 
  } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
