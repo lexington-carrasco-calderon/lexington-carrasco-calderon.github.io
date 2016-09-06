@@ -71,6 +71,7 @@
 }
 #header #header-content {
 display:none;
+}
 
 
  } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
