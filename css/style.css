@@ -1,3 +1,222 @@
+
+
+@media only screen and (max-width: 40em) {
+
+      h1 {
+    font-family:Miriam Libre;
+    font-weight:400;
+    font-size: 13vw;
+    letter-spacing: .25em;
+    line-height: 1.4em;
+    color:black;
+    text-align: center;
+    }
+    h2 {
+    font-family:Lato;font-weight:400;font-size: 16px;letter-spacing: 1px;line-height: 19px;color:black;
+    }
+    h3{
+        font-family:Lato;font-weight:400;font-size: 1.05vw;letter-spacing: 2px;color:white;
+    }
+    #c1, #c2, #c3 {
+    text-align: center;
+    display:none;
+    width: 33.33%;
+    height:100%;
+    margin:auto;
+    padding-top:18px;
+    padding-bottom:18px;
+    }
+    #c4 {
+    text-align: center;
+    display:none;
+    width: 70%;
+    height:100%;
+    margin:auto;
+    padding-top:0px;
+    padding-bottom:0px;
+    }
+      #c9 {
+    text-align: center;
+    display:none;
+    width: 15%;
+    height:100%;
+    margin:auto;
+    padding-top:0px;
+    padding-bottom:0px;
+    }
+      #d1, #d2, #d3 {
+    text-align: center;
+    display:none;
+    width: calc(48% - 75px);
+    height:100%;
+    margin:auto;
+    padding-top:18px;
+    padding-bottom:18px;
+    }
+      .navimgmob {
+    margin: auto;
+    width: 250px;
+    padding:10px;
+    }
+    .waluhala{
+    display:none;
+    }
+          .navimg {
+    display:none;
+    }
+            .haluhala{
+    display:inline-block;
+    }
+
+
+ } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+// Medium screens
+@media only screen and (min-width: 40.063em) {
+        .haluhala{
+    display:none;
+    }
+
+      h1 {
+    font-family:Miriam Libre;
+    font-weight:400;
+    font-size: 80px;
+    letter-spacing: .25em;
+    line-height: 1.4em;
+    color:black;
+    text-align: center;
+    }
+    h2 {
+    font-family:Lato;font-weight:400;font-size: 16px;letter-spacing: 1px;line-height: 19px;color:black;
+    }
+    h3{
+        font-family:Lato;
+        font-weight:400;
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+    #c1, #c2, #c3 {
+    text-align: center;
+    display:inline-block;
+    width: 33.33%;
+    height:100%;
+    margin:auto;
+    padding-top:18px;
+    padding-bottom:18px;
+    }
+      #c4 {
+    text-align: center;
+    display:inline-block;
+    width: 150px;
+    height:100%;
+    margin:auto;
+    padding-top:0px;
+    padding-bottom:0px;
+    }
+      #c9 {
+    text-align: center;
+    display:inline-block;
+    width: 1%;
+    height:100%;
+    margin:auto;
+    padding-top:0px;
+    padding-bottom:0px;
+    }
+      #d1, #d2, #d3 {
+    text-align: center;
+    display:inline-block;
+    width: calc(48% - 75px);
+    height:100%;
+    margin:auto;
+    padding-top:18px;
+    padding-bottom:18px;
+    }
+      .navimg {
+    margin-bottom:20px;
+    margin-top:10px;
+    transform:scale(.9);
+    width: 80%;
+    min-width: 150px;
+    padding: 0px;
+    }
+    #mobnavl {
+    text-align: center;
+    display:inline-block;
+    width: 80%;
+    height:100%;
+    margin:auto;
+    padding-top:0px;
+    padding-bottom:0px;
+    }
+    #mobnavr {
+        text-align: center;
+        display:inline-block;
+        width: 20%;
+        height:100%;
+        margin:auto;
+        padding-top:0px;
+        padding-bottom:0px;
+    }
+
+
+    } /* min-width 641px, medium screens */
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+        .haluhala{
+    display:none;
+    }
+
+    } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+
+// Large screens
+@media only screen and (min-width: 64.063em) {
+        .haluhala{
+    display:none;
+    }
+
+    h1 {
+        font-family:Miriam Libre;
+        font-weight:400;
+        font-size: 120px;
+        letter-spacing: .25em;
+        line-height: 1.4em;
+        color:black;
+        text-align: center;
+    }
+    h2 {
+    font-family:Lato;font-weight:400;font-size: 16px;letter-spacing: 1px;line-height: 19px;color:black;
+    }
+    h3{
+        font-family:Lato;font-weight:400;font-size: 1.05vw;letter-spacing: 2px;color:white;
+    }
+
+ } /* min-width 1025px, large screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+        .haluhala{
+    display:none;
+    }
+
+    } /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+
+// XLarge screens
+@media only screen and (min-width: 90.063em) {
+        .haluhala{
+    display:none;
+    }
+
+    }
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+    /* min-width 1441px, xlarge screens */
 // Small screens
 @media only screen
   and (min-device-width: 320px)
