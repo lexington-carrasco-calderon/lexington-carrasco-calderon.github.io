@@ -397,6 +397,15 @@ li a:active {
     h3{
         font-family:Lato;font-weight:400;font-size: 1.05vw;letter-spacing: 2px;color:white;
     }
+    h4{
+        font-family:Lato;font-weight:700;font-size:18px;letter-spacing: 2px;color:#5C15CC;
+    }
+    h5{
+        font-family:Lato;font-weight:400;font-size: 1.05vw;letter-spacing: 2px;color:black;
+    }
+    h6 {
+        font-family:Lato;font-weight:900;font-size: 14px;letter-spacing: 1px;line-height: 19px;color:black;
+    }
 .fill {
     height: -webkit-calc(100vh - 120px);
     height: -moz-calc(100vh - 120px);
