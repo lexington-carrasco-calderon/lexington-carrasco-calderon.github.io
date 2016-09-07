@@ -299,19 +299,21 @@ li a:active {
 }
 
 /* Add Animation */
-@-webkit-keyframes animatetop {
-    from {top: -300px; opacity: 0}
-    to {top: 0; opacity: 1}
-}
+    @-webkit-keyframes animatetop {
+        from {top: -300px; opacity: 0}
+        to {top: 0; opacity: 1}
+    }
 
-@keyframes animatetop {
-    from {top: -300px; opacity: 0}
-    to {top: 0; opacity: 1}
+    @keyframes animatetop {
+        from {top: -300px; opacity: 0}
+        to {top: 0; opacity: 1}
+
+    }
 
 }
 
 /* Desktop 768px */
-@media only screen and (min-width: 381px) and (max-width: 5000px) {
+@media only screen and (min-width: 381px) {
 
     .haluhala{
     display:none;
@@ -365,7 +367,7 @@ li a:active {
 }
 #mobheader {
 display:none;
-}
+}a
 
 #header {
     display:all;
