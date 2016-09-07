@@ -1,3 +1,46 @@
+/* Desktop 768px */
+@media only screen and (min-width: 48em) {
+
+    .haluhala{
+    display:none;
+    }
+    .waluhala{
+    display:all;
+    }
+
+        h1 {
+        font-family:Miriam Libre;
+        font-weight:400;
+        font-size: 120px;
+        letter-spacing: .25em;
+        line-height: 1.4em;
+        color:black;
+        text-align: center;
+    }
+    h2 {
+    font-family:Lato;font-weight:400;font-size: 16px;letter-spacing: 1px;line-height: 19px;color:black;
+    }
+    h3{
+        font-family:Lato;font-weight:400;font-size: 1.05vw;letter-spacing: 2px;color:white;
+    }
+.fill {
+    height: -webkit-calc(100vh - 120px);
+    height: -moz-calc(100vh - 120px);
+    height: calc(100vh - 120px);
+    height: -o-calc(100vh - 120px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+}
+
 
 /* Mobile first */
 @media only screen and (min-width: .1em) {
@@ -314,48 +357,5 @@ li a:active {
 
 
     }
-
-}
-
-/* Desktop 768px */
-@media only screen and (min-width: 48em) {
-
-    .haluhala{
-    display:none;
-    }
-    .waluhala{
-    display:all;
-    }
-
-        h1 {
-        font-family:Miriam Libre;
-        font-weight:400;
-        font-size: 120px;
-        letter-spacing: .25em;
-        line-height: 1.4em;
-        color:black;
-        text-align: center;
-    }
-    h2 {
-    font-family:Lato;font-weight:400;font-size: 16px;letter-spacing: 1px;line-height: 19px;color:black;
-    }
-    h3{
-        font-family:Lato;font-weight:400;font-size: 1.05vw;letter-spacing: 2px;color:white;
-    }
-.fill {
-    height: -webkit-calc(100vh - 120px);
-    height: -moz-calc(100vh - 120px);
-    height: calc(100vh - 120px);
-    height: -o-calc(100vh - 120px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden
-}
-.fill img {
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%
-}
 
 }
