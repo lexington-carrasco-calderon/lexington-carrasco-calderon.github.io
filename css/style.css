@@ -6,6 +6,9 @@
     .waluhala{
     display:none;
     }
+    .haluhala{
+    display:inline-block;}
+}
 
 /* Desktop */
 @media only screen and (min-width: 769px) {
