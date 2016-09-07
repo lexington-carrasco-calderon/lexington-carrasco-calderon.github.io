@@ -1,12 +1,11 @@
-
-
-// Small screens
-@media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-      h1 {
+/* Mobile first */
+@media only screen and (min-width: .1em) {
+    .waluhala{
+    display:none;
+    }
+    .haluhala{
+    display:inline-block;}
+          h1 {
     font-family:Miriam Libre;
     font-weight:400;
     font-size: 13vw;
@@ -68,364 +67,65 @@
           .navimg {
     display:none;
     }
+
+    svg:hover #Layer_1{
+    fill: #6A1FFC;
 }
 
-/* ----------- iPhone 5 and 5S ----------- */
 
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.3s;
+}
 
-      h1 {
-    font-family:Miriam Libre;
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 34px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    font-family:Lato;
     font-weight:400;
-    font-size: 13vw;
-    letter-spacing: .25em;
-    line-height: 1.4em;
-    color:black;
-    text-align: center;
-    }
-    h2 {
-    font-family:Lato;font-weight:400;font-size: 16px;letter-spacing: 1px;line-height: 19px;color:black;
-    }
-    h3{
-        font-family:Lato;font-weight:400;font-size: 1.05vw;letter-spacing: 2px;color:white;
-    }
-    #c1, #c2, #c3 {
-    text-align: center;
-    display:none;
-    width: 33.33%;
-    height:100%;
-    margin:auto;
-    padding-top:18px;
-    padding-bottom:18px;
-    }
-    #c4 {
-    text-align: center;
-    display:none;
-    width: 70%;
-    height:100%;
-    margin:auto;
-    padding-top:0px;
-    padding-bottom:0px;
-    }
-      #c9 {
-    text-align: center;
-    display:none;
-    width: 15%;
-    height:100%;
-    margin:auto;
-    padding-top:0px;
-    padding-bottom:0px;
-    }
-      #d1, #d2, #d3 {
-    text-align: center;
-    display:none;
-    width: calc(48% - 75px);
-    height:100%;
-    margin:auto;
-    padding-top:18px;
-    padding-bottom:18px;
-    }
-      .navimgmob {
-    margin: auto;
-    width: 250px;
-    padding:10px;
-    }
-    .waluhala{
-    display:none;
-    }
-          .navimg {
-    display:none;
-    }
+    font-size: 25px;
+    letter-spacing: 3px;
+    line-height: 7vh;
 
 }
 
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 667px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-      h1 {
-    font-family:Miriam Libre;
-    font-weight:400;
-    font-size: 13vw;
-    letter-spacing: .25em;
-    line-height: 1.4em;
-    color:black;
-    text-align: center;
-    }
-    h2 {
-    font-family:Lato;font-weight:400;font-size: 16px;letter-spacing: 1px;line-height: 19px;color:black;
-    }
-    h3{
-        font-family:Lato;font-weight:400;font-size: 1.05vw;letter-spacing: 2px;color:white;
-    }
-    #c1, #c2, #c3 {
-    text-align: center;
-    display:none;
-    width: 33.33%;
-    height:100%;
-    margin:auto;
-    padding-top:18px;
-    padding-bottom:18px;
-    }
-    #c4 {
-    text-align: center;
-    display:none;
-    width: 70%;
-    height:100%;
-    margin:auto;
-    padding-top:0px;
-    padding-bottom:0px;
-    }
-      #c9 {
-    text-align: center;
-    display:none;
-    width: 15%;
-    height:100%;
-    margin:auto;
-    padding-top:0px;
-    padding-bottom:0px;
-    }
-      #d1, #d2, #d3 {
-    text-align: center;
-    display:none;
-    width: calc(48% - 75px);
-    height:100%;
-    margin:auto;
-    padding-top:18px;
-    padding-bottom:18px;
-    }
-      .navimgmob {
-    margin: auto;
-    width: 250px;
-    padding:10px;
-    }
-    .waluhala{
-    display:none;
-    }
-          .navimg {
-    display:none;
-    }
+.overlay a:hover, .overlay a:focus {
+    color: #5C15CC;
 }
 
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 414px)
-  and (max-device-width: 736px)
-  and (-webkit-min-device-pixel-ratio: 3) {
-
-      h1 {
-    font-family:Miriam Libre;
-    font-weight:400;
-    font-size: 13vw;
-    letter-spacing: .25em;
-    line-height: 1.4em;
-    color:black;
-    text-align: center;
-    }
-    h2 {
-    font-family:Lato;font-weight:400;font-size: 16px;letter-spacing: 1px;line-height: 19px;color:black;
-    }
-    h3{
-        font-family:Lato;font-weight:400;font-size: 1.05vw;letter-spacing: 2px;color:white;
-    }
-    #c1, #c2, #c3 {
-    text-align: center;
-    display:none;
-    width: 33.33%;
-    height:100%;
-    margin:auto;
-    padding-top:18px;
-    padding-bottom:18px;
-    }
-    #c4 {
-    text-align: center;
-    display:none;
-    width: 70%;
-    height:100%;
-    margin:auto;
-    padding-top:0px;
-    padding-bottom:0px;
-    }
-      #c9 {
-    text-align: center;
-    display:none;
-    width: 15%;
-    height:100%;
-    margin:auto;
-    padding-top:0px;
-    padding-bottom:0px;
-    }
-      #d1, #d2, #d3 {
-    text-align: center;
-    display:none;
-    width: calc(48% - 75px);
-    height:100%;
-    margin:auto;
-    padding-top:18px;
-    padding-bottom:18px;
-    }
-      .navimgmob {
-    margin: auto;
-    width: 250px;
-    padding:10px;
-    }
-    .waluhala{
-    display:none;
-    }
-          .navimg {
-    display:none;
-    }
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    font-size: 60px;
+}
 
 }
 
-/* Portrait and Landscape */
-@media screen
-  and (device-width: 320px)
-  and (device-height: 640px)
-  and (-webkit-device-pixel-ratio: 2) {
-
-      h1 {
-    font-family:Miriam Libre;
-    font-weight:400;
-    font-size: 13vw;
-    letter-spacing: .25em;
-    line-height: 1.4em;
-    color:black;
-    text-align: center;
-    }
-    h2 {
-    font-family:Lato;font-weight:400;font-size: 16px;letter-spacing: 1px;line-height: 19px;color:black;
-    }
-    h3{
-        font-family:Lato;font-weight:400;font-size: 1.05vw;letter-spacing: 2px;color:white;
-    }
-    #c1, #c2, #c3 {
-    text-align: center;
-    display:none;
-    width: 33.33%;
-    height:100%;
-    margin:auto;
-    padding-top:18px;
-    padding-bottom:18px;
-    }
-    #c4 {
-    text-align: center;
-    display:none;
-    width: 70%;
-    height:100%;
-    margin:auto;
-    padding-top:0px;
-    padding-bottom:0px;
-    }
-      #c9 {
-    text-align: center;
-    display:none;
-    width: 15%;
-    height:100%;
-    margin:auto;
-    padding-top:0px;
-    padding-bottom:0px;
-    }
-      #d1, #d2, #d3 {
-    text-align: center;
-    display:none;
-    width: calc(48% - 75px);
-    height:100%;
-    margin:auto;
-    padding-top:18px;
-    padding-bottom:18px;
-    }
-      .navimgmob {
-    margin: auto;
-    width: 250px;
-    padding:10px;
-    }
-    .waluhala{
-    display:none;
-    }
-          .navimg {
-    display:none;
-    }
-
-}
-
-/* ----------- Galaxy S4 ----------- */
-
-/* Portrait and Landscape */
-@media screen
-  and (device-width: 320px)
-  and (device-height: 640px)
-  and (-webkit-device-pixel-ratio: 3) {
-
-      h1 {
-    font-family:Miriam Libre;
-    font-weight:400;
-    font-size: 13vw;
-    letter-spacing: .25em;
-    line-height: 1.4em;
-    color:black;
-    text-align: center;
-    }
-    h2 {
-    font-family:Lato;font-weight:400;font-size: 16px;letter-spacing: 1px;line-height: 19px;color:black;
-    }
-    h3{
-        font-family:Lato;font-weight:400;font-size: 1.05vw;letter-spacing: 2px;color:white;
-    }
-    #c1, #c2, #c3 {
-    text-align: center;
-    display:none;
-    width: 33.33%;
-    height:100%;
-    margin:auto;
-    padding-top:18px;
-    padding-bottom:18px;
-    }
-    #c4 {
-    text-align: center;
-    display:none;
-    width: 70%;
-    height:100%;
-    margin:auto;
-    padding-top:0px;
-    padding-bottom:0px;
-    }
-      #c9 {
-    text-align: center;
-    display:none;
-    width: 15%;
-    height:100%;
-    margin:auto;
-    padding-top:0px;
-    padding-bottom:0px;
-    }
-      #d1, #d2, #d3 {
-    text-align: center;
-    display:none;
-    width: calc(48% - 75px);
-    height:100%;
-    margin:auto;
-    padding-top:18px;
-    padding-bottom:18px;
-    }
-      .navimgmob {
-    margin: auto;
-    width: 250px;
-    padding:10px;
-    }
-    .waluhala{
-    display:none;
-    }
-          .navimg {
-    display:none;
-    }
-
+/* Desktop 768px */
+@media only screen and (min-width: 48em) {
+    .haluhala{
+    display:none;}
 }
 
     h1 {
@@ -639,58 +339,6 @@ li a:active {
     color: #AD9840;
 }
 
-svg:hover #Layer_1{
-    fill: #6A1FFC;
-}
-
-
-.overlay {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.9);
-    overflow-x: hidden;
-    transition: 0.3s;
-}
-
-.overlay-content {
-    position: relative;
-    top: 25%;
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
-}
-
-.overlay a {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 34px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-    font-family:Lato;
-    font-weight:400;
-    font-size: 25px;
-    letter-spacing: 3px;
-    line-height: 7vh;
-
-}
-
-.overlay a:hover, .overlay a:focus {
-    color: #5C15CC;
-}
-
-.overlay .closebtn {
-    position: absolute;
-    top: 20px;
-    right: 10px;
-    font-size: 60px;
-}
-
 .modal {
     display: none; /* Hidden by default */
     width: 100vw; /* Full width */
@@ -745,21 +393,6 @@ svg:hover #Layer_1{
     -webkit-animation-duration: 0.1s;
     animation-name: animatetop;
     animation-duration: 0.1s;
-}
-
-/* Mobile */
-@media only screen and (max-width: 768px) {
-    .waluhala{
-    display:none;
-    }
-    .haluhala{
-    display:inline-block;}
-}
-
-/* Desktop */
-@media only screen and (min-width: 769px) {
-    .haluhala{
-    display:none;}
 }
 
 /* Add Animation */
