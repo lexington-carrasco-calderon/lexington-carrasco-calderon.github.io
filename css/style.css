@@ -1,3 +1,10 @@
+/* Desktop 768px */
+@media only screen and (min-width: 48em) {
+    .haluhala{
+    display:none;}
+        .waluhala{
+    display:all;}
+}
 /* Mobile first */
 @media only screen and (min-width: .1em) {
     .waluhala{
