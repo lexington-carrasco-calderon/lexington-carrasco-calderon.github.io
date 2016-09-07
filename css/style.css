@@ -1,6 +1,5 @@
 
 /* Mobile first */
-@media only screen and (min-width: .1em) {
 
     .waluhala{
     display:none;
@@ -311,7 +310,6 @@ li a:active {
     from {top: -300px; opacity: 0}
     to {top: 0; opacity: 1}
 
-}
 
 /* Desktop 768px */
 @media only screen and (min-width: 650px) {
