@@ -1,6 +1,9 @@
 
 /* Mobile first */
 
+    #waluhala{
+    display:block;
+    }
           h1 {
     font-family:Miriam Libre;
     font-weight:400;
