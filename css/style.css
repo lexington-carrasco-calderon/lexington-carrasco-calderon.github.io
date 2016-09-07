@@ -314,10 +314,7 @@ li a:active {
 /* Desktop 768px */
 @media only screen and (min-width: 400px) {
 
-    #haluhala{
-    display:none;
-    }
-    #halufala{
+    .haluhala{
     display:none;
     }
     #waluhala{
