@@ -1,8 +1,8 @@
 
 /* Mobile first */
 @media screen and (min-width: 0px) and (max-width: 380px) {
-    #waluhala{
-    display:block;
+    .waluhala{
+    display:none;
     }
           h1 {
     font-family:Miriam Libre;
