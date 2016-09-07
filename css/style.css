@@ -746,11 +746,7 @@ svg:hover #Layer_1{
     animation-name: animatetop;
     animation-duration: 0.1s;
 }
-/* Desktop */
-@media only screen and (min-width: 769px) {
-    .haluhala{
-    display:none;}
-}
+
 /* Mobile */
 @media only screen and (max-width: 768px) {
     .waluhala{
@@ -758,6 +754,12 @@ svg:hover #Layer_1{
     }
     .haluhala{
     display:inline-block;}
+}
+
+/* Desktop */
+@media only screen and (min-width: 769px) {
+    .haluhala{
+    display:none;}
 }
 
 /* Add Animation */
