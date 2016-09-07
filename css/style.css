@@ -1,5 +1,21 @@
 
 
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+    .waluhala{
+    display:none;
+    }
+    .haluhala{
+    display:inline-block;}
+}
+
+/* Desktop */
+@media only screen and (min-width: 769px) {
+    .haluhala{
+    display:none;}
+}
+
 // Small screens
 @media only screen
   and (min-device-width: 320px)
@@ -745,21 +761,6 @@ svg:hover #Layer_1{
     -webkit-animation-duration: 0.1s;
     animation-name: animatetop;
     animation-duration: 0.1s;
-}
-
-/* Mobile */
-@media only screen and (max-width: 768px) {
-    .waluhala{
-    display:none;
-    }
-    .haluhala{
-    display:inline-block;}
-}
-
-/* Desktop */
-@media only screen and (min-width: 769px) {
-    .haluhala{
-    display:none;}
 }
 
 /* Add Animation */
