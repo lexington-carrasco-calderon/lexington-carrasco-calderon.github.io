@@ -746,6 +746,11 @@ svg:hover #Layer_1{
     animation-name: animatetop;
     animation-duration: 0.1s;
 }
+@media only screen and (min-width: 992px){
+    .haluhala{
+    display:none;
+    }
+}
 
 /* Add Animation */
 @-webkit-keyframes animatetop {
