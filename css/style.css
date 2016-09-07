@@ -412,5 +412,135 @@ li a:active {
     min-width: 100%;
     min-height: 100%
 }
+div {
+    margin:0;
+    padding:0;
+    border:0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+    margin-top:0px;
+}
+
+.center {
+    margin: auto;
+    width: 65%;
+    max-width: 750px;
+    padding: 10px;
+}
+
+.viewport1 {
+    height:100vh;
+    width:100vw;
+    background-color: #AD9840;
+}
+.lightning{
+  opacity:.2;
+}
+#mc_embed_signup .mutton {font-size: 12px; border: none; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; letter-spacing: .03em; color: black; background-color: grey; box-sizing:border-box; height:40px; line-height:40px; padding:0 18px; display: inline-block; margin: 0; transition: all 0.12s ease-in-out 0s;}
+#mc_embed_signup .mutton:hover {background-color:#5C15CC; cursor:pointer;}
+#mc_embed_signup input.memail {font-family:Lato;font-weight:400;font-size: 12px; border: 1px solid #ABB0B2;  -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; color: #343434; background-color: #fff; box-sizing:border-box; height:40px; padding: 0px 0.4em; display: inline-block; margin: 0; width:350px; vertical-align:top;}
+
+/* unvisited link */
+a:link {
+    color: #5C15CC;
+}
+
+/* visited link */
+a:visited {
+    color: #AD9840;
+}
+
+/* mouse over link */
+a:hover {
+    color: #6A1FFC;
+}
+
+/* selected link */
+a:active {
+    color: #AD9840;
+}
+
+li
+{
+    list-style-type: none;
+}
+
+li a:link {
+    color: white;
+}
+
+/* visited link */
+li a:visited {
+    color: white;
+}
+
+/* mouse over link */
+li a:hover {
+    color: white;
+}
+
+/* selected link */
+li a:active {
+    color: #AD9840;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    width: 100vw; /* Full width */
+    height: 100vh; /* Full height */
+    padding-top: 0vh;
+    padding-bottom: 0vh;
+    padding-left:0vw;
+    padding-right:0vw
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
+
+/* The Close Button */
+.close {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    padding-right:40px;
+}
+
+.mybtn:hover {
+    color: rgba(92, 21, 204, 0.9);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* Modal Body */
+.modal-body {padding: 0px 0px;margin:0;}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: rgba(92,21,204,.7);
+    opacity: 1;
+    color:white;
+    margin: auto;
+    padding-top: 0vh;
+    padding-bottom: 0vh;
+    padding-left:0vw;
+    padding-right:0vw
+    width: 100vw;
+    height: 100vh;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.1s;
+    animation-name: animatetop;
+    animation-duration: 0.1s;
+}
 
 }
