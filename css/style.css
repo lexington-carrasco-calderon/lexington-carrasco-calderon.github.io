@@ -1,6 +1,6 @@
 
 /* Mobile first */
-@media screen and (min-width: 0px) and (max-width: 400px) {
+@media screen and (min-width: 0px) and (max-width: 380px) {
     #waluhala{
     display:block;
     }
@@ -313,7 +313,7 @@ li a:active {
 }
 
 /* Desktop 768px */
-@media only screen and (min-width: 350px) and (max-width: 5000px) {
+@media only screen and (min-width: 380px) and (max-width: 5000px) {
 
     .haluhala{
     display:none;
