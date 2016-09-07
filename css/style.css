@@ -319,8 +319,52 @@ li a:active {
     display:none;
     }
     #waluhala{
-    display:inline-block;
+    display:all;
     }
+
+#c1, #c2, #c3 {
+    text-align: center;
+    display:inline-block;
+    width: 33.33%;
+    height:100%;
+    margin:auto;
+    padding-top:18px;
+    padding-bottom:18px;}
+    #c4 {
+    text-align: center;
+    display:inline-block;
+    width: 20%;
+    height:100%;
+    margin:auto;
+    padding-top:0px;
+    padding-bottom:0px;
+}
+#c9 {
+    text-align: center;
+    display:inline-block;
+    width: 15%;
+    height:100%;
+    margin:auto;
+    padding-top:0px;
+    padding-bottom:0px;
+}
+#d1, #d2, #d3 {
+    text-align: center;
+    display:inline-block;
+    width: 25%;
+    height:100%;
+    margin:auto;
+    padding-top:18px;
+    padding-bottom:18px;
+}
+  .navimg {
+    margin-bottom:20px;
+    margin-top:10px;
+    transform:scale(.9);
+    width: 80%;
+    min-width: 150px;
+    padding: 0px;
+}
 
         h1 {
         font-family:Miriam Libre;
