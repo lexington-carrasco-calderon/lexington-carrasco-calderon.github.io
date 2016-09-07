@@ -129,7 +129,7 @@
     padding: 0;
     margin: 0;
 }
-#header {
+#mobheader {
     background-color: rgba(92, 21, 204, 0.9);
     position: fixed;
     top: 0;
@@ -139,10 +139,8 @@
     padding: 0;
     margin: 0;
 }
-#header #header-content {
-    margin: 0;
-    padding:0;
-    border:0;
+#header {
+display:none;
 }
 #overheader {
     background-color: #5C15CC;
@@ -365,8 +363,12 @@ li a:active {
     min-width: 150px;
     padding: 0px;
 }
+#mobheader {
+display:none;
+}
 
 #header {
+    display:all;
     background-color: rgba(92, 21, 204, 0.9);
     position: fixed;
     top: 0;
