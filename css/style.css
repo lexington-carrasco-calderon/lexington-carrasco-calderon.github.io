@@ -319,7 +319,7 @@ li a:active {
     display:none;
     }
     #waluhala{
-    display:all;
+    display:inline-block;
     }
 
 #c1, #c2, #c3 {
