@@ -313,7 +313,7 @@ li a:active {
 }
 
 /* Desktop 768px */
-@media only screen and (min-width: 381px) {
+@media screen and (min-width: 381px) {
 
     .haluhala{
     display:none;
@@ -322,49 +322,50 @@ li a:active {
     display:inline-block;
     }
 
-#c1, #c2, #c3 {
+    #c1, #c2, #c3 {
     text-align: center;
     display:inline-block;
     width: 33.33%;
     height:100%;
     margin:auto;
     padding-top:18px;
-    padding-bottom:18px;}
+    padding-bottom:18px;
+    }
     #c4 {
     text-align: center;
     display:inline-block;
-    width: 20%;
+    width: 150px;
     height:100%;
     margin:auto;
     padding-top:0px;
     padding-bottom:0px;
-}
-#c9 {
+    }
+    #c9 {
     text-align: center;
     display:inline-block;
-    width: 15%;
+    width: 1%;
     height:100%;
     margin:auto;
     padding-top:0px;
     padding-bottom:0px;
-}
-#d1, #d2, #d3 {
+    }
+     #d1, #d2, #d3 {
     text-align: center;
     display:inline-block;
-    width: 25%;
+    width: calc(48% - 75px);
     height:100%;
     margin:auto;
     padding-top:18px;
     padding-bottom:18px;
-}
-  .navimg {
+    }
+    .navimg {
     margin-bottom:20px;
     margin-top:10px;
     transform:scale(.9);
     width: 80%;
     min-width: 150px;
     padding: 0px;
-}
+    }
 #mobheader {
 display:none;
 }
@@ -386,30 +387,38 @@ display:none;
     border:0;
     width: 100%;
 }
-
-        h1 {
-        font-family:Miriam Libre;
-        font-weight:400;
-        font-size: 120px;
-        letter-spacing: .25em;
-        line-height: 1.4em;
-        color:black;
-        text-align: center;
+    h3{
+    font-family:Lato;
+    font-weight:400;
+    font-size: 12px;
+    letter-spacing: 1px;
     }
+    h1 {
+    font-family:Miriam Libre;
+    font-weight:400;
+    font-size: 80px;
+    letter-spacing: .25em;
+    line-height: 1.4em;
+    color:black;
+    text-align: center;
+    }
+    h6 {
+    font-family:Lato;
+    font-weight:900;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 19px;
+    color:black;
+    }
+
     h2 {
     font-family:Lato;font-weight:400;font-size: 16px;letter-spacing: 1px;line-height: 19px;color:black;
-    }
-    h3{
-        font-family:Lato;font-weight:400;font-size: 1.05vw;letter-spacing: 2px;color:white;
     }
     h4{
         font-family:Lato;font-weight:700;font-size:18px;letter-spacing: 2px;color:#5C15CC;
     }
     h5{
         font-family:Lato;font-weight:400;font-size: 1.05vw;letter-spacing: 2px;color:black;
-    }
-    h6 {
-        font-family:Lato;font-weight:900;font-size: 14px;letter-spacing: 1px;line-height: 19px;color:black;
     }
 .fill {
     height: -webkit-calc(100vh - 120px);
@@ -556,5 +565,69 @@ li a:active {
     animation-name: animatetop;
     animation-duration: 0.1s;
 }
+
+}
+/* Desktop 768px */
+@media only screen and (min-width: 701px) {
+
+    h3{
+        font-family:Lato;font-weight:400;font-size: 1.05vw;letter-spacing: 2px;color:white;
+    }
+        h1 {
+        font-family:Miriam Libre;
+        font-weight:400;
+        font-size: 120px;
+        letter-spacing: .25em;
+        line-height: 1.4em;
+        color:black;
+        text-align: center;
+    }
+    h6 {
+        font-family:Lato;font-weight:900;font-size: 14px;letter-spacing: 1px;line-height: 19px;color:black;
+    }
+#c1, #c2, #c3 {
+    text-align: center;
+    display:inline-block;
+    width: 33.33%;
+    height:100%;
+    margin:auto;
+    padding-top:18px;
+    padding-bottom:18px;}
+
+    #c4 {
+    text-align: center;
+    display:inline-block;
+    width: 20%;
+    height:100%;
+    margin:auto;
+    padding-top:0px;
+    padding-bottom:0px;
+    }
+    #c9 {
+    text-align: center;
+    display:inline-block;
+    width: 15%;
+    height:100%;
+    margin:auto;
+    padding-top:0px;
+    padding-bottom:0px;
+    }
+    #d1, #d2, #d3 {
+    text-align: center;
+    display:inline-block;
+    width: 25%;
+    height:100%;
+    margin:auto;
+    padding-top:18px;
+    padding-bottom:18px;
+    }
+  .navimg {
+    margin-bottom:20px;
+    margin-top:10px;
+    transform:scale(.9);
+    width: 80%;
+    min-width: 150px;
+    padding: 0px;
+    }
 
 }
