@@ -308,7 +308,15 @@ li a:active {
 
 /* Desktop 768px */
 @media screen and (min-width: 581px) {
-
+        .overlay-content {
+display:none;
+    }
+::selection {
+  background: rgba(92,21,204,.2); /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: rgba(92,21,204,.2); /* Gecko Browsers */
+}
     .haluhala{
     display:none;
     }
@@ -579,7 +587,7 @@ li a:active {
         font-size: 120px;
         letter-spacing: .25em;
         line-height: 1.4em;
-        color:black;
+        color:rgba(0,0,255,.09);
         text-align: center;
     }
     h6 {
