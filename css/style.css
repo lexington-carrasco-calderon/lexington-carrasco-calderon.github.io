@@ -489,6 +489,7 @@ img {
 .viewport1 {
     height:100vh;
     width:100vw;
+    margin-top:0px;
     background-color: #AD9840;
 }
 .viewport2 {
