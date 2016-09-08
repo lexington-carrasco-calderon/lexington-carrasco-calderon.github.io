@@ -313,7 +313,7 @@ li a:active {
 }
 
 /* Desktop 768px */
-@media screen and (min-width: 381px) {
+@media screen and (min-width: 581px) {
 
     .haluhala{
     display:none;
