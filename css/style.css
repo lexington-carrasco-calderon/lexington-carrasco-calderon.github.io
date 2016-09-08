@@ -390,8 +390,8 @@ display:none;
     h3{
     font-family:Lato;
     font-weight:400;
-    font-size: 1vw;
-    letter-spacing: 1px;
+    font-size: 2vw;
+    letter-spacing: .1vw;
     }
     h1 {
     font-family:Miriam Libre;
@@ -568,7 +568,7 @@ li a:active {
 
 }
 /* Desktop 768px */
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 850px) {
 
     h3{
         font-family:Lato;font-weight:400;font-size: 1.05vw;letter-spacing: 2px;color:white;
