@@ -12,9 +12,7 @@
     margin-top:0px;
     background-color: #AD9840;
 }
-            .overlay-content {
-display:none;
-    }
+
 ::selection {
   background: rgba(0,0,0,.6); /* WebKit/Blink Browsers */
 }
