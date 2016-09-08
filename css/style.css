@@ -568,7 +568,7 @@ li a:active {
 
 }
 /* Desktop 768px */
-@media only screen and (min-width: 701px) {
+@media only screen and (min-width: 670px) {
 
     h3{
         font-family:Lato;font-weight:400;font-size: 1.05vw;letter-spacing: 2px;color:white;
