@@ -352,7 +352,7 @@ li a:active {
      #d1, #d2, #d3 {
     text-align: center;
     display:inline-block;
-    width: calc(48% - 100px);
+    width: calc(48% - 125px);
     height:100%;
     margin:auto;
     padding-top:18px;
