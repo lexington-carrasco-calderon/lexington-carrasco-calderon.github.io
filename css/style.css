@@ -1,5 +1,23 @@
 /* Mobile first */
 @media screen and (min-width: 0px) and (max-width: 580px) {
+
+    #phoneback {
+        display:all;
+    }
+        #deskback {
+        display:none;
+    }
+
+            .overlay-content {
+display:none;
+    }
+::selection {
+  background: rgba(0,0,0,.6); /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: rgba(0,0,0,.6); /* Gecko Browsers */
+}
+
     .waluhala{
     display:none;
     }
@@ -9,7 +27,7 @@
     font-size: 13vw;
     letter-spacing: .25em;
     line-height: 1.4em;
-    color:black;
+    color:white;
     text-align: center;
     }
     h2 {
@@ -180,11 +198,18 @@ img {
     min-width: 100%;
     min-height: 100%
 }
-.viewport1 {
-    height:100vh;
+
+    .box {
+    background-color: rgba(92,21,204,.5);
+    position: absolute;
+    margin-top:120px;
+    height: -webkit-calc(100vh - 120px);
+    height: -moz-calc(100vh - 120px);
+    height: calc(100vh - 120px);
+    height: -o-calc(100vh - 120px);
     width:100vw;
-    background-color: #AD9840;
 }
+
 .lightning{
   opacity:.2;
 }
@@ -308,6 +333,13 @@ li a:active {
 
 /* Desktop 768px */
 @media screen and (min-width: 581px) {
+
+        #phoneback {
+        display:none;
+    }
+        #deskback {
+        display:all;
+    }
         .overlay-content {
 display:none;
     }
@@ -398,10 +430,10 @@ display:none;
     h1 {
     font-family:Miriam Libre;
     font-weight:400;
-    font-size: 80px;
+    font-size: 7em;
     letter-spacing: .25em;
     line-height: 1.4em;
-    color:black;
+    color:white;
     text-align: center;
     }
     h6 {
@@ -460,6 +492,21 @@ img {
     height:100vh;
     width:100vw;
     background-color: #AD9840;
+}
+.viewport2 {
+    height:100vh;
+    width:100vw;
+    background-color: rgba(92,21,204,0);
+}
+.box {
+    background-color: rgba(92,21,204,.5);
+    position: absolute;
+    margin-top:120px;
+    height: -webkit-calc(100vh - 120px);
+    height: -moz-calc(100vh - 120px);
+    height: calc(100vh - 120px);
+    height: -o-calc(100vh - 120px);
+    width:100vw;
 }
 .lightning{
   opacity:.2;
@@ -584,10 +631,10 @@ li a:active {
         h1 {
         font-family:Miriam Libre;
         font-weight:400;
-        font-size: 120px;
+        font-size: 9em;
         letter-spacing: .25em;
         line-height: 1.4em;
-        color:rgba(0,0,255,.09);
+        color:white;
         text-align: center;
     }
     h6 {
