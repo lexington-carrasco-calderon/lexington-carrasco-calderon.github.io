@@ -1,13 +1,11 @@
 /* Mobile first */
 @media screen and (min-width: 0px) and (max-width: 580px) {
-
-    #phoneback {
+        #phoneback {
         display:all;
     }
         #deskback {
         display:none;
     }
-
             .overlay-content {
 display:none;
     }
