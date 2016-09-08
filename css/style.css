@@ -1,6 +1,6 @@
 
 /* Mobile first */
-@media screen and (min-width: 0px) and (max-width: 380px) {
+@media screen and (min-width: 0px) and (max-width: 580px) {
     .waluhala{
     display:none;
     }
@@ -568,7 +568,7 @@ li a:active {
 
 }
 /* Desktop 768px */
-@media only screen and (min-width: 670px) {
+@media only screen and (min-width: 720px) {
 
     h3{
         font-family:Lato;font-weight:400;font-size: 1.05vw;letter-spacing: 2px;color:white;
