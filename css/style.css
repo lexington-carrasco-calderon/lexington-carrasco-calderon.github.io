@@ -6,6 +6,12 @@
         #deskback {
         display:none;
     }
+    .viewport1 {
+    height:100vh;
+    width:100vw;
+    margin-top:0px;
+    background-color: #AD9840;
+}
             .overlay-content {
 display:none;
     }
