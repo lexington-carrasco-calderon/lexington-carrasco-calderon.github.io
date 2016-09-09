@@ -1,11 +1,5 @@
 /* Mobile first */
 @media screen and (min-width: 0px) and (max-width: 580px) {
-        #phoneback {
-        display:all;
-    }
-        #deskback {
-        display:none;
-    }
     .viewport1 {
     height:100vh;
     width:100vw;
@@ -335,13 +329,6 @@ li a:active {
 
 /* Desktop 768px */
 @media screen and (min-width: 581px) {
-
-        #phoneback {
-        display:none;
-    }
-        #deskback {
-        display:all;
-    }
         .overlay-content {
 display:none;
     }
