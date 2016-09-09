@@ -184,7 +184,7 @@ img {
     height: -moz-calc(100vh - 120px);
     height: calc(100vh - 120px);
     height: -o-calc(100vh - 120px);
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     overflow: hidden
@@ -448,7 +448,7 @@ display:none;
     height: -moz-calc(100vh - 120px);
     height: calc(100vh - 120px);
     height: -o-calc(100vh - 120px);
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     overflow: hidden
