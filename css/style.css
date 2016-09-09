@@ -1,5 +1,22 @@
 /* Mobile first */
 @media screen and (min-width: 0px) and (max-width: 580px) {
+
+    .droptext{
+        text-align:center;
+        display:flex;
+        align-items:center;
+        width:100vw;
+        padding-left:5vw;
+        padding-right:5vw;
+        font-family:Miriam Libre;
+        font-weight:400;
+        font-size: calc(2vh + 3vw + 10px);
+        letter-spacing: .2em;
+        line-height: 1em;
+        color:white;
+        text-align: center;
+        text-transform: uppercase;
+    }
     #phoneback{
         display:all;
     }
@@ -335,6 +352,22 @@ li a:active {
 
 /* Desktop 768px */
 @media screen and (min-width: 581px) {
+        .droptext{
+        text-align:center;
+        display:flex;
+        align-items:center;
+        width:100vw;
+        padding-left:5vw;
+        padding-right:5vw;
+        font-family:Miriam Libre;
+        font-weight:400;
+        font-size: calc(3vh + 3vw + 10px);
+        letter-spacing: .2em;
+        line-height: 1em;
+        color:white;
+        text-align: center;
+        text-transform: uppercase;
+    }
         #phoneback{
         display:none;
     }
