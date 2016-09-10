@@ -3,8 +3,7 @@
 .center {
     margin: auto;
     width: 90vw;
-    max-width: 750px;
-    padding: 10px;
+    padding: 5px;
 }
     .droptext{
         text-align:center;
@@ -36,10 +35,10 @@
 }
 
 ::selection {
-  background: rgba(0,0,0,.6); /* WebKit/Blink Browsers */
+  background: rgba(0,0,0,.75); /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
-  background: rgba(0,0,0,.6); /* Gecko Browsers */
+  background: rgba(0,0,0,.75); /* Gecko Browsers */
 }
 
     .waluhala{
@@ -55,7 +54,7 @@
     text-align: center;
     }
     h2 {
-    font-family:Lato;font-weight:400;font-size: 16px;letter-spacing: 1px;line-height: 19px;color:black;
+    font-family:Lato;font-weight:400;font-size: 1em;letter-spacing: .08em;line-height: 1.2em;color:black;
     }
     h3{
         font-family:Lato;font-weight:400;font-size: 1.05vw;letter-spacing: 2px;color:white;
@@ -213,12 +212,6 @@ img {
     margin-top:0px;
 }
 
-.center {
-    margin: auto;
-    width: 65%;
-    max-width: 750px;
-    padding: 10px;
-}
 .fill {
     height: -webkit-calc(100vh - 120px);
     height: -moz-calc(100vh - 120px);
@@ -252,6 +245,41 @@ img {
 #mc_embed_signup .mutton {font-size: 12px; border: none; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; letter-spacing: .03em; color: black; background-color: grey; box-sizing:border-box; height:40px; line-height:40px; padding:0 18px; display: inline-block; margin: 0; transition: all 0.12s ease-in-out 0s;}
 #mc_embed_signup .mutton:hover {background-color:#5C15CC; cursor:pointer;}
 #mc_embed_signup input.memail {font-family:Lato;font-weight:400;font-size: 12px; border: 1px solid #ABB0B2;  -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; color: #343434; background-color: #fff; box-sizing:border-box; height:40px; padding: 0px 0.4em; display: inline-block; margin: 0; width:350px; vertical-align:top;}
+
+#nc_embed_signup .mutton {font-size: 12px;
+    border: none;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    letter-spacing: .03em;
+    color: white;
+    background-color: black;
+    box-sizing:border-box;
+    height:35px;
+    line-height:35px;
+    padding:0 10px;
+    display: inline-block;
+    margin: 0;
+    transition: all 0.12s ease-in-out 0s;}
+#nc_embed_signup .mutton:hover {background-color:#5C15CC;
+    cursor:pointer;}
+#nc_embed_signup input.memail {
+    font-family:Lato;
+    font-weight:400;
+    font-size: 11px;
+    border: 1px solid black;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    color: green;
+    background-color: #5C15CC;
+    box-sizing:border-box;
+    height:35px;
+    padding: 0px 0.8em;
+    display: inline-block;
+    margin: 0; width:200px;
+    vertical-align:top;
+    }
 
 /* unvisited link */
 a:link {
@@ -408,10 +436,10 @@ li a:active {
 display:none;
     }
 ::selection {
-  background: rgba(92,21,204,.2); /* WebKit/Blink Browsers */
+  background: rgba(0,0,0,.75); /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
-  background: rgba(92,21,204,.2); /* Gecko Browsers */
+  background: rrgba(0,0,0,.75); /* Gecko Browsers */
 }
     .haluhala{
     display:none;
@@ -522,7 +550,7 @@ display:none;
     font-size: 2.5em;
     letter-spacing: .15em;
     line-height: .9em;
-    color:#5C15CC;
+    color:black;
     text-align: center;
     }
 
@@ -571,6 +599,12 @@ img {
     width:100vw;
     background-color: rgba(92,21,204,0);
 }
+.viewport3 {
+    height:calc(100vh - 120px);
+    width:100vw;
+    margin-top:0px;
+    background-color: #AD9840;
+}
 .box {
     background-color: rgba(92,21,204,.5);
     position: absolute;
@@ -587,6 +621,41 @@ img {
 #mc_embed_signup .mutton {font-size: 12px; border: none; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; letter-spacing: .03em; color: black; background-color: grey; box-sizing:border-box; height:40px; line-height:40px; padding:0 18px; display: inline-block; margin: 0; transition: all 0.12s ease-in-out 0s;}
 #mc_embed_signup .mutton:hover {background-color:#5C15CC; cursor:pointer;}
 #mc_embed_signup input.memail {font-family:Lato;font-weight:400;font-size: 12px; border: 1px solid #ABB0B2;  -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; color: #343434; background-color: #fff; box-sizing:border-box; height:40px; padding: 0px 0.4em; display: inline-block; margin: 0; width:350px; vertical-align:top;}
+
+#nc_embed_signup .mutton {font-size: 12px;
+    border: none;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    letter-spacing: .03em;
+    color: white;
+    background-color: black;
+    box-sizing:border-box;
+    height:35px;
+    line-height:35px;
+    padding:0 10px;
+    display: inline-block;
+    margin: 0;
+    transition: all 0.12s ease-in-out 0s;}
+#nc_embed_signup .mutton:hover {background-color:#5C15CC;
+    cursor:pointer;}
+#nc_embed_signup input.memail {
+    font-family:Lato;
+    font-weight:400;
+    font-size: 12px;
+    border: 1px solid black;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    color: green;
+    background-color: #5C15CC;
+    box-sizing:border-box;
+    height:35px;
+    padding: 0px 0.8em;
+    display: inline-block;
+    margin: 0; width:300px;
+    vertical-align:top;
+    }
 
 /* unvisited link */
 a:link {
