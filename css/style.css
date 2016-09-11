@@ -68,6 +68,9 @@
     h6 {
         font-family:Lato;font-weight:900;font-size: 14px;letter-spacing: 1px;line-height: 19px;color:black;
     }
+    strong {font-weight:400;
+
+    }
 
     #c1, #c2, #c3 {
     text-align: center;
@@ -398,6 +401,9 @@ li a:active {
 
 /* Desktop 768px */
 @media screen and (min-width: 581px) {
+    *:focus {
+    outline: 0;
+}
     #rearmobheader {
     background-color: black;
     position: fixed;
@@ -554,6 +560,10 @@ display:none;
     text-align: center;
     }
 
+        strong {font-weight:400;
+
+    }
+
 .fill {
     height: -webkit-calc(100vh - 120px);
     height: -moz-calc(100vh - 120px);
@@ -648,7 +658,7 @@ img {
     -moz-border-radius: 7px;
     border-radius: 7px;
     color: green;
-    background-color: #5C15CC;
+    background-color: rgba(92, 21, 204, 0.65);
     box-sizing:border-box;
     height:35px;
     padding: 0px 0.8em;
