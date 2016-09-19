@@ -6,6 +6,11 @@
     padding: 5px;
 }
 
+.shopima{
+    width:40%;
+    height:100%;
+}
+
 .bottomcenter{
     margin-left:10vw;
     margin-right:10vw;
@@ -414,6 +419,12 @@ li a:active {
     *:focus {
     outline: 0;
 }
+
+.shopima{
+    width:40%;
+    height:100%;
+}
+
     #rearmobheader {
     background-color: black;
     position: fixed;
@@ -790,7 +801,19 @@ li a:active {
     h3{
         font-family:Lato;font-weight:400;font-size: 14px;letter-spacing: .15em;color:white;
     }
-/* Desktop 768px */
+
+}
+
+@media only screen and (min-width: 950px) {
+
+.shopima{
+    height:100%;
+    width:100%;
+}
+
+}
+
+
 @media only screen and (min-width: 1200px) {
 
     h3{
