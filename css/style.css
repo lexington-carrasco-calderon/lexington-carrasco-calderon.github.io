@@ -5,6 +5,16 @@
     width: 90vw;
     padding: 5px;
 }
+
+.bottomcenter{
+    margin-left:10vw;
+    margin-right:10vw;
+    width: 80vw;
+    padding: 5px;
+    display:inline-flex;
+
+
+}
     .droptext{
         text-align:center;
         display:flex;
@@ -60,7 +70,7 @@
         font-family:Lato;font-weight:400;font-size: 1.05vw;letter-spacing: 2px;color:white;
     }
     h4{
-        font-family:Lato;font-weight:400i;font-size:18px;letter-spacing: 2px;color:#5C15CC;
+        font-family:Lato;font-weight:400;font-size:18px;letter-spacing: 2px;color:#5C15CC;
     }
     h5{
         font-family:Lato;font-weight:400;font-size: 1.05vw;letter-spacing: 2px;color:black;
@@ -502,6 +512,11 @@ display:none;
 display:none;
 }
 
+.hoverim:hover{
+    color:red;
+    opacity:.5;
+}
+
 #header {
     display:all;
     background-color: rgba(92, 21, 204, 0.9);
@@ -549,7 +564,8 @@ display:none;
     font-family:Lato;font-weight:700;font-size: 12px;letter-spacing: 2px;line-height: 19px;color:black;
     }
     h4{
-        font-family:Lato;font-weight:300;font-size:20px;letter-spacing: .125em;color:black;
+        font-family:Lato;font-weight:400;font-size:20px;letter-spacing: .125em;color:black;
+
     }
     h5{font-family:Miriam Libre;
     font-weight:300;
